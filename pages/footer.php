@@ -1,0 +1,1 @@
+<h2>Copyright &copy <?php echo date("Y"); ?> - GVTech </h2>
