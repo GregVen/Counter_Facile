@@ -15,9 +15,9 @@
         </div>
 
         <div class="total">
-            <h3>Total</h3>
-            <h3>Copies: <?php echo ($totalA4NB + $totalA4C) ;?> A4 + <?php echo ($totalA3NB + $totalA3C) ;?> A3</h3>
-            <h2 class="montant">Montant: <?php echo ((($totalA4C * $A4C_cout) + ($totalA4NB * $A4NB_cout) + ($totalA3C * $A3C_cout) + ($totalA3NB * $A3NB_cout)) / 100);?> €</h2>
+            <h3>Total</h3> 
+            <h3>Copies: <span class="montant"><?php echo ($totalA4NB + $totalA4C) ;?></span> A4 et <span class="montant"><?php echo ($totalA3NB + $totalA3C) ;?></span> A3</h3>
+            <h2>Montant: <span class="montant"><?php echo ((($totalA4C * $A4C_cout) + ($totalA4NB * $A4NB_cout) + ($totalA3C * $A3C_cout) + ($totalA3NB * $A3NB_cout)) / 100);?> €</span></h2>
             
         </div>
         <div class="maintenance">

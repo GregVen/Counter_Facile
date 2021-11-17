@@ -54,6 +54,10 @@ function deletePrinter($id){
    $sql = "DELETE from machines where idMachines = ?";//requete
    $stmt = $bdd->prepare($sql);//preparation de la requete
    $stmt->execute([$id]);//execution de la requete
+
+   $sql = "DELETE from compteurs where idMachine = ?";//requete
+   $stmt = $bdd->prepare($sql);//preparation de la requete
+   $stmt->execute([$id]);//execution de la requete
     
 }
 

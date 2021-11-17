@@ -25,7 +25,7 @@ try{
             <tr class="tab_tr">
                 <th></th>
                 <th class="tab_1">Coût actuel par page</th>
-                <th class="tab_2">Coût modifié par page</th>
+                <th class="tab_2b">Coût modifié par page</th>
 
             </tr>
             <?php 

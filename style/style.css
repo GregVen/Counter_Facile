@@ -23,6 +23,7 @@
  }
 
  .titre2{
+     padding-top: 1rem;
      text-align: center;
  }
 .footer_connexion{
@@ -244,6 +245,10 @@ section{
     text-decoration: underline;
 }
 
+.montant {
+    color: rgb(255,107,107);
+}
+
 .table_autre{
     min-height: 400px;
     width: 1000px;
@@ -292,6 +297,10 @@ section{
 
 .tab_2{
     text-align: center;
+}
+.tab_2b{
+    text-align: start;
+    padding-left: 1rem;
 }
 
 .tab_3{

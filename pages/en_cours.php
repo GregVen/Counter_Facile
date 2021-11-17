@@ -70,7 +70,7 @@ $texte="en cours";
         </div>
         <div class="bouton">
             <p class="disable_bouton">Debut</p>
-            <a href="<?php echo "./fonctions/recup_compteurs.php?id=&etat=0" ?>"><p>Fin</p></a>
+            <a href="<?php echo "./fonctions/recup_compteurs.php?id=".$value->idMachines."&etat=0" ?>"><p>Fin</p></a>
         </div>
 
     </div>
